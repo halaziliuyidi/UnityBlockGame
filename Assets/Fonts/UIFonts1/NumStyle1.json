@@ -1,0 +1,100 @@
+{"frames": [
+
+{
+	"filename": "0.png",
+	"frame": {"x":1,"y":1,"w":126,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":126,"h":162},
+	"sourceSize": {"w":126,"h":162}
+},
+{
+	"filename": "1.png",
+	"frame": {"x":129,"y":1,"w":51,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":164},
+	"sourceSize": {"w":51,"h":164}
+},
+{
+	"filename": "2.png",
+	"frame": {"x":1,"y":167,"w":114,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":163},
+	"sourceSize": {"w":114,"h":163}
+},
+{
+	"filename": "3.png",
+	"frame": {"x":117,"y":167,"w":111,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":163},
+	"sourceSize": {"w":111,"h":163}
+},
+{
+	"filename": "4.png",
+	"frame": {"x":1,"y":332,"w":128,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":163},
+	"sourceSize": {"w":128,"h":163}
+},
+{
+	"filename": "5.png",
+	"frame": {"x":131,"y":332,"w":116,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":162},
+	"sourceSize": {"w":116,"h":162}
+},
+{
+	"filename": "6.png",
+	"frame": {"x":1,"y":497,"w":112,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":163},
+	"sourceSize": {"w":112,"h":163}
+},
+{
+	"filename": "7.png",
+	"frame": {"x":115,"y":497,"w":116,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":163},
+	"sourceSize": {"w":116,"h":163}
+},
+{
+	"filename": "8.png",
+	"frame": {"x":1,"y":662,"w":99,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":99,"h":163},
+	"sourceSize": {"w":99,"h":163}
+},
+{
+	"filename": "9.png",
+	"frame": {"x":102,"y":662,"w":106,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":106,"h":163},
+	"sourceSize": {"w":106,"h":163}
+},
+{
+	"filename": "10.png",
+	"frame": {"x":1,"y":827,"w":55,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":60},
+	"sourceSize": {"w":55,"h":60}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "NumStyle1.png",
+	"format": "RGBA8888",
+	"size": {"w":248,"h":888},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b7036ce7cba17afd4491def8898190e9:0442a42eb245a7d3f15dabdfda786ecd:a6139fd3ad615caffd3b146a9dcb4570$"
+}
+}

@@ -1,0 +1,92 @@
+{"frames": [
+
+{
+	"filename": "0.png",
+	"frame": {"x":1,"y":1,"w":52,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":68},
+	"sourceSize": {"w":52,"h":68}
+},
+{
+	"filename": "1.png",
+	"frame": {"x":55,"y":1,"w":22,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":68},
+	"sourceSize": {"w":22,"h":68}
+},
+{
+	"filename": "2.png",
+	"frame": {"x":79,"y":1,"w":48,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":68},
+	"sourceSize": {"w":48,"h":68}
+},
+{
+	"filename": "3.png",
+	"frame": {"x":129,"y":1,"w":46,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":68},
+	"sourceSize": {"w":46,"h":68}
+},
+{
+	"filename": "4.png",
+	"frame": {"x":177,"y":1,"w":53,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":68},
+	"sourceSize": {"w":53,"h":68}
+},
+{
+	"filename": "5.png",
+	"frame": {"x":232,"y":1,"w":48,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":68},
+	"sourceSize": {"w":48,"h":68}
+},
+{
+	"filename": "6.png",
+	"frame": {"x":282,"y":1,"w":46,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":68},
+	"sourceSize": {"w":46,"h":68}
+},
+{
+	"filename": "7.png",
+	"frame": {"x":330,"y":1,"w":49,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":68},
+	"sourceSize": {"w":49,"h":68}
+},
+{
+	"filename": "8.png",
+	"frame": {"x":381,"y":1,"w":41,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":68},
+	"sourceSize": {"w":41,"h":68}
+},
+{
+	"filename": "9.png",
+	"frame": {"x":424,"y":1,"w":45,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":68},
+	"sourceSize": {"w":45,"h":68}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "NumStyle2.png",
+	"format": "RGBA8888",
+	"size": {"w":470,"h":70},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a1e6f7618a2bfe37b14fb93d9af832d4:8730adee60760becaee828d3034108f6:a786fe4298dd7b5255b6f57cbaa74642$"
+}
+}

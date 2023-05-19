@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3748008715999931158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3748008715999931144}
+  - component: {fileID: 3748008715999931146}
+  - component: {fileID: 3748008715999931147}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3748008715999931144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3748008715999931158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3748008715999931146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3748008715999931158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54067b4fdf5d7ce4c985eb50356d8985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - audioUse: BGM
+    clip: {fileID: 8300000, guid: b489b0e8dd4d58643af47da291581a94, type: 3}
+    outputGroup: {fileID: -5909498358316016813, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.7
+    PlayOnAwake: 1
+    loop: 1
+  - audioUse: ButtonClick
+    clip: {fileID: 8300000, guid: 3c65daabf4e3e7f45b5e79d1f11fbde6, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.7
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: StartGame
+    clip: {fileID: 8300000, guid: 005dec7ab11b32747aa005cbad707d30, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 1
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Drag
+    clip: {fileID: 8300000, guid: 5b0f2b391d8174a43bb78ff7f2fa861a, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 1
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Place
+    clip: {fileID: 8300000, guid: 70d2b976add8b3140b12349016712883, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 1
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: DestroyLine
+    clip: {fileID: 8300000, guid: 7933b098c36f27142b88cba931db0fef, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 1
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Combo1
+    clip: {fileID: 8300000, guid: ffde558079a3c0f40a717dafa0eb85bc, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.9
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Combo2
+    clip: {fileID: 8300000, guid: 8d50f430d67311c4da4151772f9d2322, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.9
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Combo3
+    clip: {fileID: 8300000, guid: 3daede144aefa4b42bad478a7c88fb67, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.9
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Combo4
+    clip: {fileID: 8300000, guid: 24a0c9ea0d6e5fb46bc4864fb6cab4ba, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.9
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Combo5
+    clip: {fileID: 8300000, guid: 3fa43defd3f5b19418a0e436be93a7ef, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.9
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Good
+    clip: {fileID: 8300000, guid: 2c0b907bac52472458a2c56ef3389638, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.7
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Nice
+    clip: {fileID: 8300000, guid: d27762ed397f29e428cfebd443755fa9, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.7
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Great
+    clip: {fileID: 8300000, guid: e260cb51ee5285d46b9e9aee7f566f7f, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.7
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Amazing
+    clip: {fileID: 8300000, guid: 8bb61fa80be663a49bf546616457a9a5, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 0.7
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: NoSapce
+    clip: {fileID: 8300000, guid: 538f5104376b68548b9bcebc1cab0333, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 1
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: Failed
+    clip: {fileID: 8300000, guid: 0d728c4ac050f4846a2a469440802447, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 1
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: count
+    clip: {fileID: 8300000, guid: 286d3efd4ee0af84ca77fe45eeb7a90b, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 1
+    PlayOnAwake: 0
+    loop: 0
+  - audioUse: eat
+    clip: {fileID: 8300000, guid: 1867fc9aaeab021458223cac96eb35eb, type: 3}
+    outputGroup: {fileID: 7637915255469160267, guid: 03b70b735534cf849993787e6b0539e7, type: 2}
+    volume: 1
+    PlayOnAwake: 0
+    loop: 0
+--- !u!81 &3748008715999931147
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3748008715999931158}
+  m_Enabled: 1

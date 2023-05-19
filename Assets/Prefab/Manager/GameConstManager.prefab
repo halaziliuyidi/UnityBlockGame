@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2489222927433100343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2489222927433100342}
+  - component: {fileID: 2489222927433100345}
+  m_Layer: 0
+  m_Name: GameConstManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2489222927433100342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2489222927433100343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2489222927433100345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2489222927433100343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a91833913007de4a9686971a2b922c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlockColor: {r: 1, g: 1, b: 1, a: 1}
+  BlockSprites:
+  - {fileID: 21300000, guid: 9750caa4da618fc40babd596e79dec18, type: 3}
+  - {fileID: 21300000, guid: a73103a5ad32020438a1f0c576e98b80, type: 3}
+  - {fileID: 21300000, guid: 415991c5b476f6c459609baf3fa65600, type: 3}
+  - {fileID: 21300000, guid: f7d4aefab1624ec418b20ab53cabb063, type: 3}
+  - {fileID: 21300000, guid: 6d554b8e696c7c44aac4386c0f92136b, type: 3}
+  ClearSprites:
+  - {fileID: 21300000, guid: 8fb9b42cde5c06d4381fc8e0a205041b, type: 3}
+  - {fileID: 21300000, guid: 295ac31ef6752bf4fb0749a4e2dd4d0f, type: 3}
+  - {fileID: 21300000, guid: 8e60fd1ec1232ab45a2b9776cdda5fec, type: 3}
+  - {fileID: 21300000, guid: 41bf8316948ee6a41beeae991bda4591, type: 3}
+  - {fileID: 21300000, guid: 98f376ea15c6c99479123885d2d6f45b, type: 3}
+  FoodSprites:
+  - {fileID: 21300000, guid: 77d0f5348dfa1c5409ea3a33151aa0e7, type: 3}
+  - {fileID: 21300000, guid: 6422d1ee69c4c354797e67f069340ad3, type: 3}
+  - {fileID: 21300000, guid: 5ca96c59ec997614c93158d69a2e2bc1, type: 3}
+  - {fileID: 21300000, guid: 2e8127b6b8e928f4bbe9daeda71df3fe, type: 3}
+  - {fileID: 21300000, guid: a973320a251c85447a4a6bf5bb951167, type: 3}
+  StarSprites:
+  - {fileID: 21300000, guid: a1cdefc892c46934d8b45e8322ba60b9, type: 3}
+  - {fileID: 21300000, guid: f07abbd899523854da2ed91f248a0f1b, type: 3}
+  - {fileID: 21300000, guid: 8733595216796d546bb7b379c7f6573b, type: 3}
+  - {fileID: 21300000, guid: cdcff2d06b54ec149a167f8324456828, type: 3}
+  - {fileID: 21300000, guid: 41481f80152d56e47ac91496287b7796, type: 3}
+  boardDragColor_A: 0.5
+  BlockOffsetY: 1.5
+  baseScore: 1
+  destroyOneLineScore: 10
+  destroyTwoLineScore: 30
+  destroyThreeLineScore: 60
+  destroyFourLineScore: 120
+  destroyFiveLineScore: 240
+  firstComboAddScore: 10
+  twoComboAddScore: 20
+  threeComboAddScore: 30
+  fourComboAddScore: 40
+  fiveComboAddScore: 50
+  sixComboAddScore: 60
+  sevenComboAddScore: 70
+  eightComboAddScore: 80
+  nineComboAddScore: 90
+  tenComboAddScore: 100
+  GameOverCountDown: 5
+  comboTimeLimits:
+  - 30
+  - 30
+  - 20
+  - 15
+  - 10
+  - 5
+  LevelUnLock: {fileID: 21300000, guid: 54e43d9a482c82643a54cd4993b44024, type: 3}
+  LevelSelected: {fileID: 21300000, guid: d5df763581decd84eb7bc4d05c87b5e8, type: 3}
+  LevelLock: {fileID: 21300000, guid: 66365a21c7095ce4ea4e16ab54d7edb7, type: 3}

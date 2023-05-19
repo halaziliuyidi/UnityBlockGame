@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3611499930229928783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3611499930710542174}
+  - component: {fileID: 3611499930229928768}
+  m_Layer: 0
+  m_Name: BoardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3611499930710542174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3611499930229928783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3611499930229928768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3611499930229928783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad92da7b3642c9c4c9cfc18d294e6fa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardTileScale: {x: 0, y: 0, z: 0}
+  scaledBlockTileScale: {x: 0, y: 0, z: 0}
+  boardTilePrefab: {fileID: 7425525390662228663, guid: 7ab377fd365cf3740809f4c915902ad0, type: 3}
+  blockTilePrefab: {fileID: 7990724158298612730, guid: 1f697e8cc1e9c1147b7e28554aa05c90, type: 3}
+  blockPrefabs:
+    list:
+    - value: {fileID: 2206834388071171711, guid: 672e1c00f122bd74881fe0979b70fa10, type: 3}
+      weight: 30
+    - value: {fileID: 8253155950832119113, guid: bf52d14f5de13f54a9e973a9a2f33273, type: 3}
+      weight: 30
+    - value: {fileID: 7275975835781741563, guid: 81f7dec5066bbeb48807b9b8d8e9954d, type: 3}
+      weight: 30
+    - value: {fileID: 8164013081097188114, guid: 57bf05bde69e785459e4ca66b93e884d, type: 3}
+      weight: 30
+    - value: {fileID: 5669256529740956381, guid: 4cf2364a8339de347ac0722d91e36e03, type: 3}
+      weight: 1
+    - value: {fileID: 843706546993064080, guid: 86686ed6a6168bd4094c9ab7afb1e523, type: 3}
+      weight: 30
+    - value: {fileID: 7094521160338155080, guid: 288247edafc754448b91a29f54facf51, type: 3}
+      weight: 30
+    - value: {fileID: 7608525972267650543, guid: 7f713d36644581643971a19e2f3a10ae, type: 3}
+      weight: 30
+    - value: {fileID: 6159404653487554588, guid: c4af98e6be07311438054dbce7ef6a04, type: 3}
+      weight: 30
+    - value: {fileID: 864783414815874026, guid: 35d3ee458f4dc974d9d2dbef4da50793, type: 3}
+      weight: 30
+    - value: {fileID: 4250137693390741652, guid: a716c93702dc9224a826aec4ebd8fe00, type: 3}
+      weight: 30
+    - value: {fileID: 570432510153752590, guid: 72c838a811d51f648b55227e0b3b5b56, type: 3}
+      weight: 1
+    - value: {fileID: 17585563589010310, guid: 8057cd8e31e591548a62215b2367a460, type: 3}
+      weight: 1
+    - value: {fileID: 3068230506175242373, guid: d78a931f6e665504c88d6357fcafaedd, type: 3}
+      weight: 5
+    - value: {fileID: 2368269534082942683, guid: 095d53e7a24cd294491eaec9d382a5d2, type: 3}
+      weight: 5
+    - value: {fileID: 1317722996714419488, guid: 3aae73ca11a7e2b4ca98e94e49dc35ae, type: 3}
+      weight: 5
+    - value: {fileID: 8933893911199203675, guid: ee4a620f8cf3eeb4b970b20eb06d3211, type: 3}
+      weight: 5
+    - value: {fileID: 7570166195788592548, guid: 60920420fa0fdae41a4cbc80e6f8614f, type: 3}
+      weight: 5
+    - value: {fileID: 4279345600894195183, guid: b98a4b3721132604bbfb4a9f5c94a279, type: 3}
+      weight: 5
+    - value: {fileID: 219491006466210212, guid: b918e756655fb414bb88ea61a1eb993b, type: 3}
+      weight: 5
+    - value: {fileID: 776266508066190651, guid: 5a12fb6fbae60dd458e5eecbc1c0e00c, type: 3}
+      weight: 5
+    - value: {fileID: 779561787405911306, guid: 6f5af6c0fcd38ad4589b83b731c66c7a, type: 3}
+      weight: 1
+    - value: {fileID: 5859288454829056651, guid: 68adad89550fe774387f21fb1e3345fc, type: 3}
+      weight: 1
+    - value: {fileID: 6936135247537703727, guid: b9c786ac70d48714cb197179289d0010, type: 3}
+      weight: 1
+    - value: {fileID: 385694012450778046, guid: cbfaeaf6c15381e4288836deaedf10d8, type: 3}
+      weight: 1
+    - value: {fileID: 949719204459640798, guid: 36fe56ae925297849b843adbeefc1fff, type: 3}
+      weight: 5
+    - value: {fileID: 878417888046756940, guid: 343ba672ff519fc4ca5c3d04b95cf9f8, type: 3}
+      weight: 5
+    - value: {fileID: 3983697076747431319, guid: dfc464bb73900d74b8534cb0560cfe3f, type: 3}
+      weight: 5
+    - value: {fileID: 1489507314441242700, guid: fa15b16e4b636bf45bce4b005372a43f, type: 3}
+      weight: 5
+    - value: {fileID: 7135147502374094621, guid: 505633a2acf6d4b41a3f3395d7ad872b, type: 3}
+      weight: 5
+    - value: {fileID: 5853810656482287647, guid: 24408eda833586b49aff938fc352d32d, type: 3}
+      weight: 5
+    - value: {fileID: 4817056677260673946, guid: 54ea17fe1bc40214aa3a92fe1f6a0f9b, type: 3}
+      weight: 5
+    - value: {fileID: 3549044570781721836, guid: 64d9f8f0228cecd48a6c18e7004c82b0, type: 3}
+      weight: 5
+    - value: {fileID: 3126803579382671601, guid: e64c9aba4f55c1c4cad4fd3875547e30, type: 3}
+      weight: 5
+    - value: {fileID: 323294498697205231, guid: 41a97bb6327d11041b5abcb6e376f821, type: 3}
+      weight: 5
+    - value: {fileID: 8961446599571978687, guid: 2f722c9e12377484f84db565fcb5edaf, type: 3}
+      weight: 5
+    - value: {fileID: 7059985173227410675, guid: e8ce266dd64b50b43b5d1762151280be, type: 3}
+      weight: 5
+  levelPrefabs:
+  - {fileID: 400041275081408926, guid: fc0f93210d5b04c41aa09a06e13a066e, type: 3}
+  firstGameBlocksPrefab:
+  - {fileID: 7159612250018065585, guid: 7cf1675ec95f42d448c20f72278e57f3, type: 3}
+  - {fileID: 5364197383879096040, guid: 52b4d28f9d4e0c545a802028432c56b4, type: 3}
+  - {fileID: 7755657514790380261, guid: ba9029940175bc242809707ff15d795d, type: 3}
+  firstGameObject:
+  - {fileID: 4525762623876840115, guid: d37a6619e29cacb41889e47b9a0a5674, type: 3}
+  - {fileID: 3258408234269615943, guid: 25f6d900508f746438edb927b73c07dc, type: 3}
+  - {fileID: 6938154302231319396, guid: 371e2ce32833b9847a294743fef90b95, type: 3}
+  firstGameObjecPos:
+  - {x: 4, y: 3.5, z: 0}
+  - {x: 3.5, y: 4, z: 0}
+  - {x: 3.5, y: 3.5, z: 0}
+  fistGameDragRanges: []
+  teachObjects: []
+  blocks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  dragedBlocks: []
+  residueBlocks: []
+  weights: []
+  firstGameIndex: 0
+  boardColor: {r: 1, g: 1, b: 1, a: 1}
+  highlightColor: {r: 1, g: 1, b: 1, a: 1}
+  testIndex: 0
+  DarkTitleBg: {fileID: 21300000, guid: b238892df4f7d114a9035a770a498b56, type: 3}
+  BrightTitleBg: {fileID: 21300000, guid: 93048dc8bcf953e4ba3d5ed57f435443, type: 3}
